@@ -5,10 +5,10 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'sympy==1.12',
-        'pycryptodome==3.20.0',
-        'numpy==1.24.4',
-        'scipy==1.12.0'
+        'sympy~=1.12',
+        'pycryptodome~=3.20.0',
+        'numpy~=1.26.4',
+        'scipy~=1.13.0'
     ],
     tests_require=[
         'pytest',
@@ -18,4 +18,7 @@ setup(
     author="Bayu Samudra",
     author_email="bayusamudra.55.02.com@gmail.com",
     license="MIT",
+    description="A collection of tools for CTF",
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
 )
