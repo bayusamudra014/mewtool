@@ -8,7 +8,8 @@ setup(
         'sympy~=1.12',
         'pycryptodome~=3.20.0',
         'numpy~=1.26.4',
-        'scipy~=1.13.0'
+        'scipy~=1.13.0',
+        'cryptography'
     ],
     tests_require=[
         'pytest',

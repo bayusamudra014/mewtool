@@ -6,10 +6,12 @@ Author: Bayu Samudra
 Author-email: bayusamudra.55.02.com@gmail.com
 License: MIT
 Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: sympy~=1.12
 Requires-Dist: pycryptodome~=3.20.0
 Requires-Dist: numpy~=1.26.4
 Requires-Dist: scipy~=1.13.0
+Requires-Dist: cryptography
 
 ## Mew Library
 
