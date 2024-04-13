@@ -70,7 +70,13 @@ class Fraction:
         return Fraction(self.x // gcd, self.y // gcd)
 
 
-# Faster
+# Constants
+ONE = Fraction(1, 1)
+ZERO = Fraction(0, 1)
+
+# Other utility functions
+
+
 def partial_quotiens(frac: Fraction):
     x = frac.x
     y = frac.y
