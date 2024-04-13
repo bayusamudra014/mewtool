@@ -1,7 +1,7 @@
 from mewtool.number.util import nth_root, crt
 
 
-def hastad_broadcast(pair: tuple[int, int], e: int) -> int:
+def hastad_find_message(pair: tuple[int, int], e: int) -> int:
     """Broadcast attack to recover the plaintext from a pair of ciphertext and public key.
 
     Args:

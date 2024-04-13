@@ -1,4 +1,4 @@
-from mewtool.rsa.hastad import hastad_broadcast
+from mewtool.rsa.hastad import hastad_find_message
 from Crypto.Util.number import long_to_bytes
 
 
@@ -14,7 +14,7 @@ def test_hastad():
     ]
 
     e = 3
-    plaintext = hastad_broadcast(pair, e)
+    plaintext = hastad_find_message(pair, e)
 
     assert long_to_bytes(
         plaintext) == b'broadcast_with_small_e_is_killer_86029531744'
