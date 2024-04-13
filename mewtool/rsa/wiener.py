@@ -2,7 +2,7 @@ from mewtool.number.fraction import Fraction, fraction_convergence, partial_quot
 from mewtool.number.util import *
 
 
-def wiener_find_d(e, n):
+def wiener_find_d(e, n) -> int | None:
     """Wiener's attack to find d from e and n"""
     frac = Fraction(e, n)
     for i in fraction_convergence(partial_quotiens(frac)):
@@ -36,7 +36,7 @@ def wiener_find_d(e, n):
     return None
 
 
-def wiener_find_pq(e, n):
+def wiener_find_pq(e, n) -> tuple[int, int] | None:
     """Wiener's attack to find p and q from e and n"""
     frac = Fraction(e, n)
     for i in fraction_convergence(partial_quotiens(frac)):
