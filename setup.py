@@ -14,4 +14,8 @@ setup(
         'pytest',
     ],
     setup_requires=['pytest-runner'],
+    include_package_data=True,
+    author="Bayu Samudra",
+    author_email="bayusamudra.55.02.com@gmail.com",
+    license="MIT",
 )
