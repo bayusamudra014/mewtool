@@ -1,3 +1,3 @@
 ## Mew Library
 
-This is my Utility for CTF
+This is my small library for CTF
